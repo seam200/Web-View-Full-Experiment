@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EFE9E9"
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:id="@+id/allinonelogo"
+        android:src="@drawable/allinone"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="150dp"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:text="Please Wait"
+        android:textSize="16sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="10dp"/>
+
+</LinearLayout>
